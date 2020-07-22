@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+   <meta charset="UTF-8"/>
+   <link rel = "stylesheet" href = "_css/estilo.css">
+   <title> Sistema de Cadastro </title>
+</head>
+
+
+<body>
+
+<div class = "container"> 
+
+
+  <nav>
+    <ul class = "menu">
+        <a href="index.php"><li>Cadastro</li></a>
+        <br>
+       <a href="consultas.php"><li>Consultas</li></a>
+    </ul>
+  </nav> 
+
+  <section>
+    <h1> <center>Sociedade brasileira de café</center></h1>
+   
+    
+    <form method="post" action="processa.php">
+
+      Nome<br> 
+      <input type = "text" name = "nome" class = "campo" maxlength="40" required autofocus size = "50" style= "font-size: 25px" >
+      <br> 
+
+      Email<br> 
+      <input type = "text" name = "email" class = "campo" maxlength="40" required size = "50"
+      style= "font-size: 25px">
+      <br> 
+
+      Profissão: <br>
+      <input type = "text" name = "profissao" class = "campo" maxlength="40" required size = "50" style= "font-size: 25px" >
+      <br>
+
+      CPF: <br> 
+      <input type = "text" name = "cpf" class = "campo" maxlength="14" required size = "50" style= "font-size: 25px" >
+
+      <br><br><br><br><br><br><br><br><br>
+
+      <input type = "submit" value = "Salvar" class = "botao">
+      <input type = "reset"  class = "botao" value = "Limpar">  
+
+    </form>
+
+  </section>
+
+</div>
+</body>
+</html>
